@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Birthday Surprise</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:radial-gradient(circle at top,#1b1440,#000);
+  font-family:'Poppins',sans-serif;
+  color:#fff;
+}
+
+.card{
+  background:rgba(255,255,255,0.06);
+  padding:60px 40px;
+  border-radius:30px;
+  text-align:center;
+  box-shadow:0 0 80px rgba(255,0,160,.35);
+}
+
+h1{
+  font-family:'Playfair Display',serif;
+  font-size:3rem;
+  margin-bottom:15px;
+}
+
+p{
+  color:#ddd;
+  font-size:1.05rem;
+  margin-bottom:35px;
+}
+
+button{
+  padding:18px 50px;
+  border:none;
+  border-radius:50px;
+  background:linear-gradient(135deg,#ff4ecd,#6b5cff);
+  color:#fff;
+  font-size:1.1rem;
+  cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+  <h1>Happy Birthday 🎉</h1>
+  <p>A small surprise is waiting for you ✨</p>
+
+  <!-- SIMPLE & WORKING -->
+  <button onclick="location.href='wishes.html'">
+    Start the Surprise 🎁
+  </button>
+</div>
+
+<!-- CREDIT -->
+<div style="position:fixed;bottom:12px;right:16px;font-size:12px;color:#aaa;">
+  Created by <span style="color:#ff4ecd;">Shashi</span>
+</div>
+
+</body>
+</html>
